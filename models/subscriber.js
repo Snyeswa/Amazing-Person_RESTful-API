@@ -10,7 +10,7 @@ const subscriberSchema = new mongoose.Schema({
   subscribedToChannel: {
     type: String,
     required: true,
-    enum: ["education", "food", "sport"],
+    // enum: ["education", "food", "sport"],
     lowercase: true,
     default: "education"
   },
